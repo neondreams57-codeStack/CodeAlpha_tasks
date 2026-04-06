@@ -1,0 +1,14 @@
+# Install with:  pip install -r requirements.txt
+
+# Core computer vision
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# YOLOv8 (includes PyTorch)
+ultralytics>=8.2.0
+
+# Hungarian algorithm for SORT data association
+scipy>=1.11.0
+
+# Optional: GPU acceleration (uncomment if you have CUDA)
+# torch>=2.0.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
